@@ -1,0 +1,109 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper{
+  background-image: url("img/background-img.jpg");
+  width: 100vw;
+  height: 100vh;
+ background-repeat: no-repeat;
+ background-size: cover;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ opacity:1;
+}
+.main h1{
+  font-size: 60px;
+  color: white;
+  margin-bottom: 12px;
+}
+.main p{
+  text-align: center;
+  color: white;
+}
+.time{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 7px;
+  margin: 10px 0px;
+}
+.same{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 25px;
+}
+.number{
+  font-size: 47px;
+  color: white;
+  font-weight: bolder;
+}
+.value{
+  color: white;
+}
+.mail-btn{
+  text-align: center;
+  margin: 8px 0px;
+}
+.mail-btn input{
+ width: 16rem;
+ background-color: transparent;
+ border: 1px solid white;
+ text-align: center;
+ color: white;
+ height: 2.5rem;
+ border-radius: 3px;
+}
+.mail-btn button{
+  width: 7rem;
+  height: 2.5rem;
+  background-color: transparent;
+  border: 1px solid white;
+  text-align: center;
+  color: white;
+  border-radius: 3px;
+ }
+ @media(max-width:585px){
+  .main h1{
+    font-size:40px;
+  }
+ }
+ @media(max-width:400px){
+  .main h1{
+    font-size:25px;
+    text-align: center;
+  }
+  .mail-btn input{
+    width: 13rem;
+    height: 2rem;
+  }
+  .mail-btn button{
+    width: 5rem;
+    height: 2rem;
+  }
+  .number{
+    font-size: 25px;
+  }
+p{
+ width: 70%;
+ margin-left: 3rem;
+}
+ }
+ @media(max-width:365px){
+  .same{
+    padding: 15px;
+  }
+ }
+button:hover{
+  background-color: white;
+  color: teal;
+  cursor: pointer;
+}
+input::placeholder{
+  color: white;
+}
